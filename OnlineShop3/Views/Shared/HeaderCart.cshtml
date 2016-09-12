@@ -1,0 +1,12 @@
+﻿@model List<OnlineShop3.Models.CartItem>
+
+<div class="cart">
+    <p>
+        Welcome to our Vincent Online Store! <span>Cart:</span><div id="dd" class="wrapper-dropdown-2">
+            @Model.Count item(s) @*- $@(Model.Sum(x=>x.Product.Price * Model.Quantity))*@
+            <ul class="dropdown">
+                <li>you have no items in your Shopping cart</li>
+            </ul>
+        </div>
+    </p>
+</div>

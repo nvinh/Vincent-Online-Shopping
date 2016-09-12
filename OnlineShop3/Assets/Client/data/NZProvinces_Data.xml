@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Item id="" type="" value=""></Item>
+	<Item id="101" type="province" value="Auckland">
+		<Item id="10151" type="district" value="Auckland centre">
+			<Item id="1015149" type="precinct" value="Auckland CBD"/>
+			<Item id="1015135" type="precinct" value="Mt Albert"/>
+			<Item id="1015139" type="precinct" value="Mt Eden"/>
+			<Item id="1015131" type="precinct" value="Avondale"/>
+			<Item id="1015121" type="precinct" value="Mt Wellington"/>
+		</Item>
+		<Item id="10153" type="district" value="Auckland suburban">
+			<Item id="1015325" type="precinct" value="Onehunga"/>
+		</Item>
+	</Item>
+  <Item id="10119" type="province" value="Tauranga">
+    <Item id="10151" type="district" value="Tauranga centre">
+      <Item id="1015149" type="precinct" value="Tauranga city centre"/>
+      <Item id="1015121" type="precinct" value="Mt Tauranga"/>
+    </Item>
+    <Item id="10153" type="district" value="Tauranga suburban">
+      <Item id="1015325" type="precinct" value="Tauranga north"/>
+    </Item>    
+  </Item>
+</Root>

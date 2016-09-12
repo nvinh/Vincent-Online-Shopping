@@ -1,0 +1,32 @@
+﻿@model List<Models.EF.Menu>
+<div class="call">
+    <p><span>Need help?</span> call us <span class="number">021-086 10xxx</span></span></p>
+</div>
+<div class="account_desc">
+    @{ 
+        var session= (OnlineShop3.Common.UserLogin) Session[OnlineShop3.Common.CommonConstants.User_Session];
+    }
+@if (session== null)
+{
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="@item.Link" target="@item.Target">@item.Text</a></li>
+        }
+        @*<li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">My Account</a></li>*@
+    </ul>
+}
+else
+{
+    <ul>
+        <li>Hi <b>@session.UserName</b>! How are you today?</li>
+        <li>@Html.ActionLink("Logout","Logout","User")</li>
+    </ul>
+}
+
+</div>
+<div class="clear"></div>

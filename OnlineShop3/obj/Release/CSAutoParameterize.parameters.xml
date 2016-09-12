@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OnlineShopDbContext-Web.config Connection String" description="OnlineShopDbContext Connection String used in web.config by the application to access the database." defaultValue="data source=127.0.0.1;initial catalog=OnlineShop3;persist security info=True;user id=sa;password=vinh;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="f:\\MSA\\_Learning\\OnlineShop3\\OnlineShop3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OnlineShopDbContext']/@connectionString" />
+  </parameter>
+</parameters>
